@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Verificar Estado del Hospital</title>
+  <link rel="stylesheet" href="deseño.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Verificar Estado del Hospital</h1>
+    <form id="hospitalForm">
+      <label for="numPacientes">Número de Pacientes:</label>
+      <input type="number" id="numPacientes" required>
+      <label for="numCamas">Número de Camas Disponibles:</label>
+      <input type="number" id="numCamas" required>
+      <label for="numsatu">cauntas camas queres que queder antes de avisar que el sistema esta saturado:</label>
+      <input type="number" id="numsatu" required>
+      <button type="submit">Verificar Estado</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="funcion.js"></script>
+</body>
+</html>
